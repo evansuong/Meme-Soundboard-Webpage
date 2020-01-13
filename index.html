@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Meme Soundboard</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    
+</head> 
+<body>
+    <header>
+        <nav>
+            <h1>Meme Soundboard</h1>
+            <a href="index.html">Home</a>
+           
+            <input id="searchbar" onkeyup="search_meme()" type="text" placeholder="Search Sounds">
+        </nav>
+    </header>
+
+    <div class="buttons">
+        <div class="container" id="harlem shake" onmousedown="play_sound('sounds/harlem_shake.mp3')">
+            <img src="https://i.ytimg.com/vi/dXC85PNVms4/maxresdefault.jpg" alt="" class="image">
+            <div class="overlay">
+                <div class="text">harlem shake</div>
+            </div>
+        </div>
+
+        <div class="container" id="ugandan knuckles" onmousedown="play_sound('sounds/ugandan_knuckles.mp3')">
+            <img src="https://i.imgur.com/1eJ1q0V.jpg" alt="" class="image">
+            <div class="overlay">
+                <div class="text">ugandan knuckles</div>
+            </div>
+        </div>
+
+        <div class="container" id="lebron james" onmousedown="play_sound('sounds/lebron_james.mp3')">
+            <img src="https://usatftw.files.wordpress.com/2018/06/gty_964676116_100284706-e1528725906386.jpg?w=1000&h=600&crop=1" alt="" class="image">
+            <div class="overlay">
+                <div class="text">lebron james</div>
+            </div>
+        </div>
+
+        <div class="container" id="yeah boy" onmousedown="play_sound('sounds/yea_boy.mp3')">
+            <img src="https://pixel.nymag.com/imgs/daily/selectall/2016/12/15/15-longest-yeah-boy.w710.h473.2x.jpg" alt="" class="image">
+            <div class="overlay">
+                <div class="text">yeaaa boyyy</div>
+            </div>
+        </div>
+
+        <div class="container" id="why are you running" onmousedown="play_sound('sounds/why_are_you_running.mp3')">
+            <img src="https://i.ytimg.com/vi/GKy1FkApzh8/maxresdefault.jpg" alt="" class="image">
+            <div class="overlay">
+                <div class="text">Why are you running?</div> 
+            </div>
+        </div>
+
+        <div class="container" id="crack kid" onmousedown="play_sound('sounds/crack_kid.mp3')">
+            <img src="https://i.ytimg.com/vi/3_sgHbCdf3g/hqdefault.jpg" alt="" class="image">
+            <div class="overlay">
+                <div class="text">yaaas</div>
+            </div>
+        </div>
+
+        <div class="container" id="mission failed" onmousedown="play_sound('sounds/mission_failed.mp3')">
+            <img src="https://i.ytimg.com/vi/oX4lkdVpX6s/maxresdefault.jpg" alt="" class="image">
+            <div class="overlay">
+                <div class="text">mission failed</div>
+            </div>
+        </div>
+
+        <div class="container" id="just do it" onmousedown="play_sound('sounds/just_do_it.mp3')">
+            <img src="https://i.ytimg.com/vi/ZXsQAXx_ao0/maxresdefault.jpg" alt="" class="image">
+            <div class="overlay">
+                <div class="text">just do it</div>
+            </div>
+        </div>
+
+        <div class="container" id="fre shavacado" onmousedown="play_sound('sounds/fre_shavacado.mp3')">
+            <img src="https://i.ytimg.com/vi/ffyvghfBQqI/maxresdefault.jpg" alt="" class="image">
+            <div class="overlay">
+                <div class="text">fre shavacado</div>
+            </div>
+        </div>
+
+        <div class="container" id="deez nuts" onmousedown="play_sound('sounds/deez_nuts.mp3')">
+            <img src="https://i1.sndcdn.com/artworks-000573644333-pjplpp-t500x500.jpg" alt="" class="image">
+            <div class="overlay">
+                <div class="text">deez nuts</div>
+            </div>
+        </div>
+
+        <div class="container" id="dj air horn" onmousedown="play_sound('sounds/dj_airhorn.mp3')">
+            <img src="https://cdn.vox-cdn.com/thumbor/SEEYigdEiXbGspvNzo_rXeBLwSM=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19485756/air_horn_01_thumbnail_square_0000.jpg" alt="" class="image">
+            <div class="overlay">
+                <div class="text">dj air horn</div>
+            </div>
+        </div>
+
+        <div class="container" id="said air horn" onmousedown="play_sound('sounds/sad_airhorn.mp3')">
+            <img src="https://cdn.vox-cdn.com/thumbor/SEEYigdEiXbGspvNzo_rXeBLwSM=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19485756/air_horn_01_thumbnail_square_0000.jpg" alt="" class="image">
+            <div class="overlay">
+                <div class="text">sad air horn</div>
+            </div>
+        </div>
+
+        <div class="container" id="watch profanity" onmousedown="play_sound('sounds/watch_your_profanity.mp3')">
+            <img src="https://pbs.twimg.com/profile_images/552309013556125696/HI_AZq9M_400x400.jpeg" alt="" class="image">
+            <div class="overlay">
+                <div class="text">watch your profanity</div>
+            </div>
+        </div>
+
+        <div class="container" id="what are those" onmousedown="play_sound('sounds/what_are_those.mp3')">
+            <img src="https://v.cdn.vine.co/r/videos/CFF787827A1223510715634696192_3252e2aed6d.4.1.911015072684540306.mp4.jpg?versionId=S3Kz_Gb20DY.odYUf2_8uYjlrZc_Y3L." alt="" class="image">
+            <div class="overlay">
+                <div class="text">what are those</div>
+            </div>
+        </div>
+
+        <div class="container" onmousedown="play_sound('sounds/he_needs_some_milk.mp3')">
+            <img src="https://v.cdn.vine.co/r/videos/EDC1A06DCA1179203022383931392_3a8822410a9.1.5.5870999452597345465.mp4.jpg?versionId=UBoWwGlTsmpq8EjNAKZCkntGMFo7e3s9" alt="" class="image" id="some milk">
+            <div class="overlay">
+                <div class="text">he needs some milk</div>
+            </div>
+        </div>
+
+        <div class="container" onmousedown="play_sound('sounds/kirby.mp3')">
+            <img src="https://i.ytimg.com/vi/yugtPk9jscg/maxresdefault.jpg" alt="" class="image" id="kirby">
+            <div class="overlay">
+                <div class="text">kirby dreamland</div> 
+            </div>
+        </div>
+
+        <div class="container" onmousedown="play_sound('sounds/john_cena.mp3')">
+            <img src="https://www.wwe.com/f/styles/wwe_large/public/all/2019/10/RAW_06202016rf_1606--3d3997f53e6f3e9277cd5a67fbd8f31f.jpg" alt="" class="image" id="john cena">
+            <div class="overlay">
+                <div class="text">john cena</div>
+            </div>
+        </div>
+
+        <div class="container" onmousedown="play_sound('sounds/no_god_no.mp3')">
+            <img src="https://i.ytimg.com/vi/TLgHOpYBnUM/maxresdefault.jpg" alt="" class="image" id="no god no">
+            <div class="overlay">
+                <div class="text">no god no</div> 
+            </div>
+        </div>
+
+        <div class="container" onmousedown="play_sound('sounds/jason_bourne.mp3')">
+            <img src="https://i.ytimg.com/vi/xYG89rB6c5k/maxresdefault.jpg" alt="" class="image" id="jason bourne">
+            <div class="overlay">
+                <div class="text">jason bourne</div>
+            </div>
+        </div>
+
+        <div class="container" onmousedown="play_sound('sounds/its_over_9000.mp3')">
+            <img src="https://vignette.wikia.nocookie.net/dragonball/images/4/4b/VegetaItsOver9000-02.png/revision/latest?cb=20100724145819" alt="" class="image" id="its over 9000">
+            <div class="overlay">
+                <div class="text">it's over 9000</div>
+            </div>
+        </div>
+
+        <div class="container" onmousedown="play_sound('sounds/kazoo_kid.mp3')">
+            <img src="https://i.imgur.com/ixjCk3I.jpg" alt="" class="image" id="kazoo kid">
+            <div class="overlay">
+                <div class="text">kazoo kid</div>
+            </div>
+        </div>
+
+        <div class="container" onmousedown="play_sound('sounds/damn_daniel.mp3')">
+            <img src="https://img.huffingtonpost.com/asset/5cd6864c2100005900c5f061.jpeg?ops=scalefit_630_noupscale" alt="" class="image" id="damn daniel">
+            <div class="overlay">
+                <div class="text">damn daniel</div> 
+            </div>
+        </div>
+
+        <div class="container" onmousedown="play_sound('sounds/chilis.mp3')">
+            <img src="https://pbs.twimg.com/media/DQk03ybVAAAvPSu.jpg" alt="" class="image" id="chilis">
+            <div class="overlay">
+                <div class="text">chilis</div>
+            </div>
+        </div>
+
+        <div class="container" onmousedown="play_sound('sounds/roblox_damage.mp3')">
+            <img src="https://steamuserimages-a.akamaihd.net/ugc/942824057164096733/ED02A92CDBD023CAA7B193854FB0D2B42AC9816D/" alt="" class="image" id="roblox hurt">
+            <div class="overlay">
+                <div class="text">roblox damage</div> 
+            </div>
+        </div>
+
+        <div class="container" onmousedown="play_sound('sounds/minecraft_damage.mp3')">
+            <img src="https://static.turbosquid.com/Preview/2014/10/26__02_09_20/2.jpgd785c584-c1f4-4cd4-9bab-bdcc1de5aa1eLarge.jpg" alt="" class="image" id="minecraft hurt">
+            <div class="overlay">
+                <div class="text">minecraft damage</div>
+            </div>
+        </div>
+
+        <div class="container" onmousedown="play_sound('sounds/iridociclytis.mp3')">
+            <img src="https://i.redd.it/0m10yxhhn5k21.png" alt="" class="image" id="iridociclytis">
+            <div class="overlay">
+                <div class="text">iridociclytis</div>
+            </div>
+        </div>
+
+        <div class="container" onmousedown="play_sound('sounds/windows_xp.mp3')">
+            <img src="https://i.ytimg.com/vi/v1D4nIU8xfM/hqdefault.jpg" alt="" class="image" id="windows XP">
+            <div class="overlay">
+                <div class="text">windows XP</div>
+            </div>
+        </div>
+
+        <div class="container" onmousedown="play_sound('sounds/crawling_in_my_skin.mp3')">
+            <img src="https://i.kym-cdn.com/photos/images/newsfeed/001/115/160/103.jpg" alt="" class="image" id="crawing in my skin">
+            <div class="overlay">
+                <div class="text">crawling in my skin</div>
+            </div>
+        </div>
+
+        <div class="container" onmousedown="play_sound('sounds/my_name_is_jeff.mp3')">
+            <img src="https://i.kym-cdn.com/entries/icons/original/000/016/894/mynameehhjeff.jpg" alt="" class="image" id="jeff">
+            <div class="overlay">
+                <div class="text">my name is jeff</div> 
+            </div>
+        </div>
+
+        <div class="container" onmousedown="play_sound('sounds/peanut_butter_baby.mp3')">
+            <img src="https://i.kym-cdn.com/entries/icons/facebook/000/020/442/tumblr_ntzb70PQEm1uwemcqo1_400.jpg" alt="" class="image" id="peanut butter baby">
+            <div class="overlay">
+                <div class="text">peanut butter baby</div> 
+            </div>
+        </div>
+
+        <div class="container" onmousedown="play_sound('sounds/when_will_you_learn.mp3')">
+            <img src="https://i.ytimg.com/vi/H5d42w4ZcY4/maxresdefault.jpg" alt="" class="image" id="consequences">
+            <div class="overlay">
+                <div class="text">when will you learn</div>
+            </div>
+        </div>
+
+        <div class="container" onmousedown="play_sound('sounds/sad_violin.mp3')">
+            <img src="https://media.tenor.com/images/4fa6fa557da42834aa04ab887dc9c7a7/tenor.png" alt="" class="image" id="sad violin">
+            <div class="overlay">
+                <div class="text">world's saddest violin</div>
+            </div>
+        </div>
+
+        <div class="container" onmousedown="play_sound('sounds/nani.mp3')">
+            <img src="https://i.ytimg.com/vi/U_0eocL8aGA/maxresdefault.jpg" alt="" class="image" id="nani">
+            <div class="overlay">
+                <div class="text">nani?</div> 
+            </div>
+        </div>
+
+        <div class="container" onmousedown="play_sound('sounds/bruh.mp3')">
+            <img src="https://i.kym-cdn.com/entries/icons/original/000/016/540/hgh08Pez.jpeg" alt="" class="image" id="bruh">
+            <div class="overlay">
+                <div class="text">bruh</div>
+            </div>
+        </div>
+    </div> 
+    </section>
+
+    <!-- LINKING JAVASCRIPT -->
+    <script src='./soundboard.js'></script>
+</body>
+</html>

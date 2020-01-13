@@ -1,0 +1,89 @@
+
+header {
+    height: 100px;
+    margin: 20px;
+}
+
+header h1 {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase ;
+}
+
+header a {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    padding: 4px 10px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+header a:hover {
+    background: red;
+    transition: .3s ease;
+}
+
+input {
+    font-size: 20px;
+    margin: 20px;
+}
+
+body {
+    background-color: black;
+    text-align: center;
+}
+
+.buttons {
+    text-align: center;
+    display: inline-block;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.buttons .container {
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    margin: 10px;
+}
+
+.buttons .container .image {
+    width: 150px;
+    height: 150px;
+}
+
+.buttons .container .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 150px;
+    width: 150px;
+    background-color: black;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.container:hover .overlay {
+    opacity: .7;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
